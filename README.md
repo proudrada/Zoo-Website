@@ -48,9 +48,14 @@ Follow these instructions to get the project up and running on your local machin
 3. **Configure Database Connection:**
    * Open the project folder in your text editor.
    * Locate the database configuration file (usually config.php, db.php, or connection.php).
-   * Update the credentials to match your local server environment
+   * Update the credentials to match your local server environment:
+   ```bash
+   $servername = "localhost";
+   $username = "root";     // Default XAMPP username
+   $password = "";         // Default XAMPP password is empty
+   $dbname = "zoo_management";
 
 4. **Run the Application:**
    * Open your web browser and go to:
      ```bash
-     (http://localhost/Zoo-Website)
+     http://localhost/Zoo-Website
